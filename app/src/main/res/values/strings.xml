@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">BookRegal</string>
+    <string name="menu_home">Home</string>
+    <string name="main_tv_welcome">Welcome in The Book library</string>
+    <string name="main_tv_computer_science">Operating system - User experience - Programming</string>
+    <string name="main_tv_mathematics">Algebra - Analize - Statistical</string>
+    <string name="main_tv_business_informatics">Managment - Networks - Programming</string>
+    <string name="main_tv_business_administration">Law - Economy - Statistical - Managment</string>
+    <string name="main_tv_physic">mechanical - Electricity - technical Drawing</string>
+    <string name="main_tv_titel_computer_science">Computer Science</string>
+    <string name="main_tv_titel_mathematics">Mathematics</string>
+    <string name="main_tv_titel_business_informatics">Business Informatics</string>
+    <string name="main_tv_titel_business_administration">Business Administration</string>
+    <string name="main_tv_titel_physic">Physics</string>
+    <string name="impressium">Impressium</string>
+    <string name="version">version</string>
 </resources>
