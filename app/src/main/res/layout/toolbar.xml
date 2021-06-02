@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.Toolbar
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="?android:attr/actionBarSize"
+    android:layout_height="wrap_content"
     android:background="@color/green_book_regal"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ClickMenu"
+        android:src="@drawable/ic_menu"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Books Library"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:src="@drawable/englisch_map"/>
+</LinearLayout>
 
 </androidx.appcompat.widget.Toolbar>
