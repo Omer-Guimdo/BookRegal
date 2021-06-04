@@ -9,10 +9,10 @@ import java.util.Locale;
 
 public class LanguageManager {
     private Context ct;
-    private SharedPreferences sharedPreferences;
+    // private SharedPreferences sharedPreferences;
     public LanguageManager(Context ctx){
         ct = ctx;
-        sharedPreferences = ct.getSharedPreferences("LANG", Context.MODE_PRIVATE);
+      //  sharedPreferences = ct.getSharedPreferences("LANG", Context.MODE_PRIVATE);
     }
     //Language Settings
 
@@ -23,9 +23,9 @@ public class LanguageManager {
         Configuration configuration = resources.getConfiguration();
         configuration.locale = locale;
         resources.updateConfiguration(configuration, resources.getDisplayMetrics());
-        setLang(code);
+       // setLang(code);
     }
-    public String getLang(){
+   /* public String getLang(){
         return sharedPreferences.getString("lang", "en");
     }
 
@@ -34,5 +34,5 @@ public class LanguageManager {
         editor.putString("lang", code);
         editor.commit();
 
-    }
+    }*/
 }

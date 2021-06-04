@@ -1,4 +1,4 @@
-package de.romycomer.bookregal;
+/*package de.romycomer.bookregal;
 
 import android.os.Bundle;
 
@@ -13,3 +13,5 @@ public class AppCompat extends AppCompatActivity {
         languageManager.updateResource(languageManager.getLang());
     }
 }
+*/
+
