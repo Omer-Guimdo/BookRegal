@@ -9,8 +9,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompat {
     //initialize variable
 
     private Toolbar toolbar;
@@ -27,6 +28,29 @@ public class MainActivity extends AppCompatActivity {
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        // language button
+
+        ImageButton en = findViewById(R.id.btn_englisch);
+        ImageButton de = findViewById(R.id.btn_deutsch);
+        ImageButton fr = findViewById(R.id.btn_france);
+        LanguageManager lang = new LanguageManager(this);
+
+        en.setOnClickListener(view ->
+        {
+            lang.updateResource("en");
+            recreate();
+        });
+        de.setOnClickListener(view ->
+        {
+            lang.updateResource("de");
+            recreate();
+        });
+        fr.setOnClickListener(view ->
+        {
+            lang.updateResource("fr");
+            recreate();
+        });
+
     }
     public void ClickMenu(View view){
         //Open drawer

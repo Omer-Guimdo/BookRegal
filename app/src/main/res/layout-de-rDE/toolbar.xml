@@ -28,10 +28,33 @@
             android:textAlignment="center"
             android:textColor="@color/white"/>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="25dp"
-            android:src="@drawable/deutsch"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn_englisch"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/englisch"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/btn_deutsch"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:background="@drawable/round_corner_book"
+                android:padding="2dp"
+                android:src="@drawable/deutsch"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:id="@+id/btn_france"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/france_map"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </androidx.appcompat.widget.Toolbar>
