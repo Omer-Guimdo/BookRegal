@@ -80,9 +80,9 @@ public class MainActivity extends AppCompatActivity {
         recreate();
     }
 
-    public  void ClickDashboard(View view){
-        //redirect activity to dashboard
-        redirectActivity(this,Dashboard.class);
+    public  void ClickComputerSience(View view){
+        //redirect activity to Computer Sience
+        redirectActivity(this, ComputerSience.class);
     }
 
     public static void redirectActivity(Activity activity, Class aClass) {

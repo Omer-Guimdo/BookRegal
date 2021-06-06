@@ -26,7 +26,7 @@
             android:textSize="20sp"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textColor="@color/green_book_regal"/>
+            android:textColor="@color/drawer_color"/>
 
     </LinearLayout>
 
@@ -42,7 +42,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="@color/green_book_regal"
+            android:textStyle="bold"
+            android:textColor="@color/drawer_color"
             android:padding="12dp"
             android:text="@string/menu_home"
             android:layout_marginStart="16dp"/>
@@ -66,7 +67,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="@color/green_book_regal"
+            android:textStyle="bold"
+            android:textColor="@color/drawer_color"
             android:padding="12sp"
             android:text="@string/main_tv_titel_computer_science"
             android:layout_marginStart="16dp"/>
@@ -78,4 +80,127 @@
             android:src="@drawable/ic_computer_sience"/>
 
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="clickMathematic">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/drawer_color"
+            android:padding="12sp"
+            android:text="@string/main_tv_titel_mathematics"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/ic_mathematic"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="clickBusiness_informatic">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/drawer_color"
+            android:padding="12sp"
+            android:text="@string/main_tv_titel_business_informatics"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/ic_business_informatic"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="clickBusiness_administration">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/drawer_color"
+            android:padding="12sp"
+            android:text="@string/main_tv_titel_business_administration"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/ic_business_administration"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:onClick="clickPhysic">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/drawer_color"
+            android:padding="12sp"
+            android:text="@string/main_tv_titel_physic"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/ic_physic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="bottom">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textColor="#827A7A"
+            android:padding="12sp"
+            android:text="@string/impressium"
+            android:layout_marginStart="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textAlignment="textEnd"
+            android:layout_marginEnd="16dp"
+            android:textColor="#827A7A"
+            android:padding="12sp"
+            android:text="@string/version"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
 </LinearLayout>

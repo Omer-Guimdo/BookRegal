@@ -6,7 +6,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.os.Bundle;
 import android.view.View;
 
-public class Dashboard extends AppCompatActivity {
+public class ComputerSience extends AppCompatActivity {
 
     //Initialize variable
     DrawerLayout drawerLayout;
@@ -14,7 +14,7 @@ public class Dashboard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard);
+        setContentView(R.layout.activity_computer_sience);
 
         //Assign variable
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -33,6 +33,6 @@ public class Dashboard extends AppCompatActivity {
     }
     public void ClickDashboard(View view){
         //recreate activity
-        recreate();
+        MainActivity.redirectActivity(this,ComputerSience.class);
     }
 }
