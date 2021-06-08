@@ -84,6 +84,22 @@ public class MainActivity extends AppCompatActivity {
         //redirect activity to Computer Sience
         redirectActivity(this, ComputerSience.class);
     }
+    public  void clickMathematic(View view){
+        //redirect activity to Mathematic
+        redirectActivity(this, Mathematic.class);
+    }
+    public  void clickBusiness_informatic(View view){
+        //redirect activity to Mathematic
+        redirectActivity(this, BusinessInformatic.class);
+    }
+    public  void clickBusiness_administration(View view){
+        //redirect activity to Mathematic
+        redirectActivity(this, BusinessAdministration.class);
+    }
+    public  void clickPhysic(View view){
+        //redirect activity to Mathematic
+        redirectActivity(this, Physic.class);
+    }
 
     public static void redirectActivity(Activity activity, Class aClass) {
         //Initialize intent

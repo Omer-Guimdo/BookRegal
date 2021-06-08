@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookRegal">
-        <activity android:name=".ComputerSience"></activity>
+        <activity android:name=".Physic"></activity>
+        <activity android:name=".BusinessAdministration" />
+        <activity android:name=".BusinessInformatic" />
+        <activity android:name=".Mathematic" />
+        <activity android:name=".ComputerSience" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
