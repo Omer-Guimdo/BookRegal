@@ -46,7 +46,7 @@ public class BusinessAdministration extends AppCompatActivity {
         //open drawer
         MainActivity.openDrawer(drawerLayout);
     }
-    public void clickLogo(View view){
+    public void ClickLogo(View view){
         //close drawer
         MainActivity.closeDrawer(drawerLayout);
     }
@@ -55,7 +55,6 @@ public class BusinessAdministration extends AppCompatActivity {
         MainActivity.redirectActivity(this,MainActivity.class);
     }
     public void ClickComputerSience(View view){
-        //recreate activity
         MainActivity.redirectActivity(this,ComputerSience.class);
     }
     public void clickMathematic(View view){

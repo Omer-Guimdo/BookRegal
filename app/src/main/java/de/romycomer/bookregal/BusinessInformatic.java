@@ -46,7 +46,7 @@ public class BusinessInformatic extends AppCompatActivity {
         //open drawer
         MainActivity.openDrawer(drawerLayout);
     }
-    public void clickLogo(View view){
+    public void ClickLogo(View view){
         //close drawer
         MainActivity.closeDrawer(drawerLayout);
     }
@@ -55,11 +55,9 @@ public class BusinessInformatic extends AppCompatActivity {
         MainActivity.redirectActivity(this,MainActivity.class);
     }
     public void ClickComputerSience(View view){
-        //recreate activity
         MainActivity.redirectActivity(this,ComputerSience.class);
     }
     public void clickMathematic(View view){
-        //recreate activity
         MainActivity.redirectActivity(this,Mathematic.class);
     }
     public void clickBusiness_informatic(View view){
@@ -67,12 +65,10 @@ public class BusinessInformatic extends AppCompatActivity {
         recreate();
     }
     public void clickBusiness_administration(View view) {
-        //recreate activity
         MainActivity.redirectActivity(this, BusinessAdministration.class);
     }
 
     public void clickPhysic(View view) {
-        //recreate activity
         MainActivity.redirectActivity(this, Physic.class);
     }
 

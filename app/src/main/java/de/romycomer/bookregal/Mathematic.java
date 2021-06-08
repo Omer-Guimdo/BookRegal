@@ -46,12 +46,11 @@ public class Mathematic extends AppCompatActivity {
         //open drawer
         MainActivity.openDrawer(drawerLayout);
     }
-    public void clickLogo(View view){
+    public void ClickLogo(View view){
         //close drawer
         MainActivity.closeDrawer(drawerLayout);
     }
     public void ClickHome(View view){
-        //redirect Activity to home
         MainActivity.redirectActivity(this,MainActivity.class);
     }
     public void ClickComputerSience(View view){
@@ -64,16 +63,13 @@ public class Mathematic extends AppCompatActivity {
     }
 
     public void clickBusiness_informatic(View view) {
-        //recreate activity
         MainActivity.redirectActivity(this, BusinessInformatic.class);
     }
     public void clickBusiness_administration(View view){
-        //recreate activity
         MainActivity.redirectActivity(this, BusinessAdministration.class);
     }
 
     public void clickPhysic(View view) {
-        //recreate activity
         MainActivity.redirectActivity(this, Physic.class);
     }
 
