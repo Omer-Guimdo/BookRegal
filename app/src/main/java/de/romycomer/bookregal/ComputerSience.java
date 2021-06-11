@@ -2,10 +2,15 @@ package de.romycomer.bookregal;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
+//import androidx.room.Room;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+
+import java.util.List;
+
 
 public class ComputerSience extends AppCompatActivity {
 
@@ -41,6 +46,8 @@ public class ComputerSience extends AppCompatActivity {
 
         //Assign variable
         drawerLayout = findViewById(R.id.drawer_layout);
+
+
     }
     public void ClickMenu(View view){
         //open drawer

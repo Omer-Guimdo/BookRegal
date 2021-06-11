@@ -4,12 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.room.Room;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+
+import java.util.List;
+
+import de.romycomer.bookregal.DB.AppDatabase;
+import de.romycomer.bookregal.DB.Book;
 
 public class MainActivity extends AppCompatActivity {
     //initialize variable
@@ -50,6 +57,23 @@ public class MainActivity extends AppCompatActivity {
             lang.updateResource("fr");
             recreate();
         });
+
+
+        // Database
+
+        AppDatabase db = Room.databaseBuilder(getApplicationContext(),
+                AppDatabase.class, "book.database").allowMainThreadQueries().build();
+
+        Book Book1 = new Book("Java", "Omer");
+        Book Book2 = new Book("C#", "Romi");
+
+        db.bookDao().insertBook(Book1, Book2);
+        List<Book> bookList = db.bookDao().getAllBooks();
+
+        for (Book list: bookList){
+            Log.d("books", list.titel + " " + list.autor );
+        }
+
 
     }
     public void ClickMenu(View view){
