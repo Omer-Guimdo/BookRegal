@@ -66,6 +66,10 @@ public class ComputerSience extends AppCompatActivity {
         MainActivity.redirectActivity(this, BusinessAdministration.class);
     }
 
+    public void clickBusiness_informatic(View view) {
+        MainActivity.redirectActivity(this, BusinessInformatic.class);
+    }
+
     public void clickPhysic(View view) {
         MainActivity.redirectActivity(this, Physic.class);
     }
