@@ -11,9 +11,21 @@
     <string name="main_tv_titel_computer_science">Informatique</string>
     <string name="main_tv_titel_mathematics">Mathematiques</string>
     <string name="main_tv_titel_business_informatics">Gestion informatique</string>
-    <string name="main_tv_titel_business_administration">Administration des affaires</string>
+    <string name="main_tv_titel_business_administration">Gestion des affaires</string>
     <string name="main_tv_titel_physic">Physique</string>
     <string name="impressium">Impressium</string>
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Librarie</string>
+
+    <string name="business_administration1">Gestion des affaires I</string>
+    <string name="business_administration2">Gestion des affaires II</string>
+    <string name="business_administration3">Gestion des affaires III</string>
+    <string name="business_administration4">Gestion des affaires IV</string>
+    <string name="business_administration5">Gestion des affaires V</string>
+    <string name="business_administration6">Gestion des affaires VI</string>
+
+    <string name="Autor">Auteur</string>
+    <string name="jear">Année de publication</string>
+    <string name="city">ville</string>
+    <string name="Langage">Langue</string>
 </resources>

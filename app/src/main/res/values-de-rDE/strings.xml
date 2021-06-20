@@ -16,4 +16,16 @@
     <string name="impressium">Impressium</string>
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Bücherregal</string>
+
+    <string name="business_administration1">Betriebswirtschaftslehre I</string>
+    <string name="business_administration2">Betriebswirtschaftslehre II</string>
+    <string name="business_administration3">Betriebswirtschaftslehre III</string>
+    <string name="business_administration4">Betriebswirtschaftslehre IV</string>
+    <string name="business_administration5">Betriebswirtschaftslehre V</string>
+    <string name="business_administration6">Betriebswirtschaftslehre VI</string>
+
+    <string name="Autor">Auteur</string>
+    <string name="jear">Jahr der Veröffentlichung</string>
+    <string name="city">Stard</string>
+    <string name="Langage">Sprache</string>
 </resources>

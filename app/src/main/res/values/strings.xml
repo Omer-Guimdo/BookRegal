@@ -15,4 +15,17 @@
     <string name="impressium">Impressium</string>
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Books Library</string>
+
+    <string name="business_administration1">Business Administration I</string>
+    <string name="business_administration2">Business Administration II</string>
+    <string name="business_administration3">Business Administration III</string>
+    <string name="business_administration4">Business Administration IV</string>
+    <string name="business_administration5">Business Administration V</string>
+    <string name="business_administration6">Business Administration VI</string>
+    <string name="Autor">Auto</string>
+    <string name="jear">Jear of publication</string>
+    <string name="city">City</string>
+    <string name="Langage">Langage 1</string>
+
+
 </resources>

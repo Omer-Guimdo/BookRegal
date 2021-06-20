@@ -7,5 +7,10 @@
         android:bottomRightRadius="25dp"
         android:topLeftRadius="0dp"
         android:topRightRadius="0dp"/>
+    <gradient
+        android:angle="90"
+        android:startColor="#C5C5C5"
+        android:endColor="@color/green_book_regal"
+        android:type="linear"/>
 
 </shape>
