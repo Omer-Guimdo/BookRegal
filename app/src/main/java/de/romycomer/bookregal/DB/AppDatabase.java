@@ -10,12 +10,16 @@ import androidx.room.RoomDatabase;
 public abstract class AppDatabase extends RoomDatabase {
 
     public abstract BookDao bookDao();
-    private static AppDatabase INSTANCE;
-    public static AppDatabase getBdInstance(Context context){
+    public static AppDatabase INSTANCE;
+    public static AppDatabase getDatabase(final Context context){
         if(INSTANCE == null){
-            INSTANCE = Room.databaseBuilder(context.getApplicationContext(), AppDatabase.class, "DB_NAME")
-                    .allowMainThreadQueries()
-                    .build();
+            synchronized (AppDatabase.class){
+                if (INSTANCE == null){
+                    INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
+                            AppDatabase.class, "DB_NAME").fallbackToDestructiveMigration().build();
+                }
+            }
+
         }
         return INSTANCE;
     }

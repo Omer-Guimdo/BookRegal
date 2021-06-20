@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.lifecycle.ViewModelProviders;
 import androidx.room.Room;
 
 import android.app.Activity;
@@ -13,6 +15,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
+import java.time.DayOfWeek;
 import java.util.List;
 
 import de.romycomer.bookregal.DB.AppDatabase;
@@ -60,20 +63,21 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Database
-
-        AppDatabase db = Room.databaseBuilder(getApplicationContext(),
-                AppDatabase.class, "book.database").allowMainThreadQueries().build();
+        BookViewmodel viewmodel = ViewModelProviders.of(this).get(BookViewmodel.class);
 
         Book Book1 = new Book("Java", "Omer");
         Book Book2 = new Book("C#", "Romi");
 
-        db.bookDao().insertBook(Book1, Book2);
-        List<Book> bookList = db.bookDao().getAllBooks();
+        //db.bookDao().insertBook(Book1, Book2);
+        //List<Book> bookList = db.bookDao().getAllBooks();
 
-        for (Book list: bookList){
-            Log.d("books", list.titel + " " + list.autor );
-        }
-
+        viewmodel.getAllBooks().observe(this, bookList -> {
+            
+            Log.d("books", " " + bookList.size());
+            for (Book list: bookList){
+                Log.d("books", list.titel + " " + list.autor );
+            }
+        });
 
     }
     public void ClickMenu(View view){
