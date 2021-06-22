@@ -16,16 +16,44 @@
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Books Library</string>
 
+    <string name="Autor">Autor</string>
+    <string name="jear">Jear of publication</string>
+    <string name="city">City</string>
+    <string name="Langage">Langage 1</string>
+
+    <string name="computer_science1">Computer Science I</string>
+    <string name="computer_science2">Computer Science II</string>
+    <string name="computer_science3">Computer Science III</string>
+    <string name="computer_science4">Computer Science IV</string>
+    <string name="computer_science5">Computer Science V</string>
+    <string name="computer_science6">Computer Science VI</string>
+
+    <string name="mathematics1">Mathematics I</string>
+    <string name="mathematics2">Mathematics II</string>
+    <string name="mathematics3">Mathematics III</string>
+    <string name="mathematics4">Mathematics IV</string>
+    <string name="mathematics5">Mathematics V</string>
+    <string name="mathematics6">Mathematics VI</string>
+
+    <string name="business_informatics1">Business Informatics I</string>
+    <string name="business_informatics2">Business Informatics II</string>
+    <string name="business_informatics3">Business Informatics III</string>
+    <string name="business_informatics4">Business Informatics IV</string>
+    <string name="business_informatics5">Business Informatics V</string>
+    <string name="business_informatics6">Business Informatics VI</string>
+
     <string name="business_administration1">Business Administration I</string>
     <string name="business_administration2">Business Administration II</string>
     <string name="business_administration3">Business Administration III</string>
     <string name="business_administration4">Business Administration IV</string>
     <string name="business_administration5">Business Administration V</string>
     <string name="business_administration6">Business Administration VI</string>
-    <string name="Autor">Auto</string>
-    <string name="jear">Jear of publication</string>
-    <string name="city">City</string>
-    <string name="Langage">Langage 1</string>
 
+    <string name="physic1">Physics I</string>
+    <string name="physic2">Physics II</string>
+    <string name="physic3">Physics III</string>
+    <string name="physic4">Physics IV</string>
+    <string name="physic5">Physics V</string>
+    <string name="physic6">Physics VI</string>
 
 </resources>

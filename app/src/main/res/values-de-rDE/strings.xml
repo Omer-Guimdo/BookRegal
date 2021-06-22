@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">BookRegal</string>
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Startseite</string>
     <string name="main_tv_welcome">Willkommen in der Bibliothek</string>
     <string name="main_tv_computer_science">Betriebssystem - Benutzererfahrung - Programmierung</string>
     <string name="main_tv_mathematics">Algebra - Analize - Statistik</string>
@@ -17,6 +17,32 @@
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Bücherregal</string>
 
+    <string name="Autor">Autor</string>
+    <string name="jear">Jahr der Veröffentlichung</string>
+    <string name="city">Stadt</string>
+    <string name="Langage">Sprache</string>
+
+    <string name="computer_science1">Informatik I</string>
+    <string name="computer_science2">Informatik II</string>
+    <string name="computer_science3">Informatik III</string>
+    <string name="computer_science4">Informatik IV</string>
+    <string name="computer_science5">Informatik V</string>
+    <string name="computer_science6">Informatik VI</string>
+
+    <string name="mathematics1">Mathematiks I</string>
+    <string name="mathematics2">Mathematiks II</string>
+    <string name="mathematics3">Mathematiks III</string>
+    <string name="mathematics4">Mathematiks IV</string>
+    <string name="mathematics5">Mathematiks V</string>
+    <string name="mathematics6">Mathematiks VI</string>
+
+    <string name="business_informatics1">Wirtschaftsinformatik I</string>
+    <string name="business_informatics2">Wirtschaftsinformatik II</string>
+    <string name="business_informatics3">Wirtschaftsinformatik III</string>
+    <string name="business_informatics4">Wirtschaftsinformatik IV</string>
+    <string name="business_informatics5">Wirtschaftsinformatik V</string>
+    <string name="business_informatics6">Wirtschaftsinformatik VI</string>
+
     <string name="business_administration1">Betriebswirtschaftslehre I</string>
     <string name="business_administration2">Betriebswirtschaftslehre II</string>
     <string name="business_administration3">Betriebswirtschaftslehre III</string>
@@ -24,8 +50,11 @@
     <string name="business_administration5">Betriebswirtschaftslehre V</string>
     <string name="business_administration6">Betriebswirtschaftslehre VI</string>
 
-    <string name="Autor">Auteur</string>
-    <string name="jear">Jahr der Veröffentlichung</string>
-    <string name="city">Stard</string>
-    <string name="Langage">Sprache</string>
+    <string name="physic1">Physiks I</string>
+    <string name="physic2">Physiks II</string>
+    <string name="physic3">Physiks III</string>
+    <string name="physic4">Physiks IV</string>
+    <string name="physic5">Physiks V</string>
+    <string name="physic6">Physiks VI</string>
+
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">BookRegal</string>
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Accueil</string>
     <string name="main_tv_welcome">Bienvenue à la bibliothèque</string>
     <string name="main_tv_computer_science">Systèmes d" exploitation - Expérience utilisateur - Programmation</string>
     <string name="main_tv_mathematics">Algèbre - Analise - Statistique</string>
@@ -17,6 +17,32 @@
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Librarie</string>
 
+    <string name="Autor">Auteur</string>
+    <string name="jear">Année de publication</string>
+    <string name="city">ville</string>
+    <string name="Langage">Langue</string>
+
+    <string name="computer_science1">Informatique I</string>
+    <string name="computer_science2">Informatique II</string>
+    <string name="computer_science3">Informatique III</string>
+    <string name="computer_science4">Informatique IV</string>
+    <string name="computer_science5">Informatique V</string>
+    <string name="computer_science6">Informatique VI</string>
+
+    <string name="mathematics1">Mathematiques I</string>
+    <string name="mathematics2">Mathematiques II</string>
+    <string name="mathematics3">Mathematiques III</string>
+    <string name="mathematics4">Mathematiques IV</string>
+    <string name="mathematics5">Mathematiques V</string>
+    <string name="mathematics6">Mathematiques VI</string>
+
+    <string name="business_informatics1">Gestion informatique I</string>
+    <string name="business_informatics2">Gestion informatique II</string>
+    <string name="business_informatics3">Gestion informatique III</string>
+    <string name="business_informatics4">Gestion informatique IV</string>
+    <string name="business_informatics5">Gestion informatique V</string>
+    <string name="business_informatics6">Gestion informatique VI</string>
+
     <string name="business_administration1">Gestion des affaires I</string>
     <string name="business_administration2">Gestion des affaires II</string>
     <string name="business_administration3">Gestion des affaires III</string>
@@ -24,8 +50,11 @@
     <string name="business_administration5">Gestion des affaires V</string>
     <string name="business_administration6">Gestion des affaires VI</string>
 
-    <string name="Autor">Auteur</string>
-    <string name="jear">Année de publication</string>
-    <string name="city">ville</string>
-    <string name="Langage">Langue</string>
+    <string name="physic1">Physique I</string>
+    <string name="physic2">Physique II</string>
+    <string name="physic3">Physique III</string>
+    <string name="physic4">Physique IV</string>
+    <string name="physic5">Physique V</string>
+    <string name="physic6">Physique VI</string>
+
 </resources>
