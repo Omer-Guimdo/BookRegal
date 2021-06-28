@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookRegal">
-        <activity android:name=".Physic"></activity>
+        <activity android:name=".ComputerSience1"></activity>
+        <activity android:name=".Physic" />
         <activity android:name=".BusinessAdministration" />
         <activity android:name=".BusinessInformatic" />
         <activity android:name=".Mathematic" />

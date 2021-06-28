@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 import java.util.List;
 
 
-public class ComputerSience extends AppCompatActivity {
+public class ComputerSience1 extends AppCompatActivity {
 
     //Initialize variable
     DrawerLayout drawerLayout;
@@ -20,7 +20,7 @@ public class ComputerSience extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_computer_sience);
+        setContentView(R.layout.activity_computer_sience1);
 
         ImageButton en = findViewById(R.id.btn_englisch);
         ImageButton de = findViewById(R.id.btn_deutsch);
@@ -62,7 +62,7 @@ public class ComputerSience extends AppCompatActivity {
     }
     public void ClickComputerSience(View view){
         //recreate activity
-        recreate();
+        MainActivity.redirectActivity(this,ComputerSience.class);
     }
     public void clickMathematic(View view){
         MainActivity.redirectActivity(this,Mathematic.class);
@@ -78,9 +78,6 @@ public class ComputerSience extends AppCompatActivity {
 
     public void clickPhysic(View view) {
         MainActivity.redirectActivity(this, Physic.class);
-    }
-    public void ClickComputerSience1(View view) {
-        MainActivity.redirectActivity(this, ComputerSience1.class);
     }
 
     @Override
