@@ -4,9 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
-import androidx.room.Room;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,11 +13,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
-import java.time.DayOfWeek;
-import java.util.List;
-
-import de.romycomer.bookregal.DB.AppDatabase;
+import de.romycomer.bookregal.BisinessInformatic.BusinessInformatic;
+import de.romycomer.bookregal.ComputerSience.ComputerSience;
 import de.romycomer.bookregal.DB.Book;
+import de.romycomer.bookregal.Mathematics.Mathematic;
 
 public class MainActivity extends AppCompatActivity {
     //initialize variable

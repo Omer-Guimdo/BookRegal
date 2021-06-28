@@ -9,12 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookRegal">
-        <activity android:name=".ComputerSience1"></activity>
+        <activity android:name=".ComputerSience.ComputerSience6" />
+        <activity android:name=".ComputerSience.ComputerSience5" />
+        <activity android:name=".ComputerSience.ComputerSience4" />
+        <activity android:name=".ComputerSience.ComputerSience3" />
+        <activity android:name=".ComputerSience.ComputerSience2" />
+        <activity android:name=".ComputerSience.ComputerSience1" />
+        <activity android:name=".Mathematics.Mathematic6" />
+        <activity android:name=".Mathematics.Mathematic5" />
+        <activity android:name=".Mathematics.Mathematic4" />
+        <activity android:name=".Mathematics.Mathematic3" />
+        <activity android:name=".Mathematics.Mathematic2" />
+        <activity android:name=".Mathematics.Mathematic1" />
         <activity android:name=".Physic" />
         <activity android:name=".BusinessAdministration" />
-        <activity android:name=".BusinessInformatic" />
-        <activity android:name=".Mathematic" />
-        <activity android:name=".ComputerSience" />
+        <activity android:name=".BisinessInformatic.BusinessInformatic" />
+        <activity android:name=".Mathematics.Mathematic" />
+        <activity android:name=".ComputerSience.ComputerSience" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,18 +1,23 @@
-package de.romycomer.bookregal;
+package de.romycomer.bookregal.ComputerSience;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 //import androidx.room.Room;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
-import java.util.List;
+import de.romycomer.bookregal.BusinessAdministration;
+import de.romycomer.bookregal.BisinessInformatic.BusinessInformatic;
+import de.romycomer.bookregal.LanguageManager;
+import de.romycomer.bookregal.MainActivity;
+import de.romycomer.bookregal.Mathematics.Mathematic;
+import de.romycomer.bookregal.Physic;
+import de.romycomer.bookregal.R;
 
 
-public class ComputerSience extends AppCompatActivity {
+public class ComputerSience4 extends AppCompatActivity {
 
     //Initialize variable
     DrawerLayout drawerLayout;
@@ -20,7 +25,7 @@ public class ComputerSience extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_computer_sience);
+        setContentView(R.layout.activity_computer_sience4);
 
         ImageButton en = findViewById(R.id.btn_englisch);
         ImageButton de = findViewById(R.id.btn_deutsch);
@@ -65,7 +70,7 @@ public class ComputerSience extends AppCompatActivity {
         recreate();
     }
     public void clickMathematic(View view){
-        MainActivity.redirectActivity(this,Mathematic.class);
+        MainActivity.redirectActivity(this, Mathematic.class);
     }
 
     public void clickBusiness_administration(View view) {
@@ -79,9 +84,7 @@ public class ComputerSience extends AppCompatActivity {
     public void clickPhysic(View view) {
         MainActivity.redirectActivity(this, Physic.class);
     }
-    public void ClickComputerSience1(View view) {
-        MainActivity.redirectActivity(this, ComputerSience1.class);
-    }
+
 
     @Override
     protected void onPause(){

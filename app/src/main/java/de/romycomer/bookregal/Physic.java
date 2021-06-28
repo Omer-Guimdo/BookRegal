@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import de.romycomer.bookregal.BisinessInformatic.BusinessInformatic;
+import de.romycomer.bookregal.ComputerSience.ComputerSience;
+import de.romycomer.bookregal.Mathematics.Mathematic;
+
 public class Physic extends AppCompatActivity {
 
     //Initialize variable
@@ -55,10 +59,10 @@ public class Physic extends AppCompatActivity {
         MainActivity.redirectActivity(this,MainActivity.class);
     }
     public void ClickComputerSience(View view){
-        MainActivity.redirectActivity(this,ComputerSience.class);
+        MainActivity.redirectActivity(this, ComputerSience.class);
     }
     public void clickMathematic(View view){
-        MainActivity.redirectActivity(this,Mathematic.class);
+        MainActivity.redirectActivity(this, Mathematic.class);
     }
     public void clickBusiness_informatic(View view) {
         MainActivity.redirectActivity(this, BusinessInformatic.class);
