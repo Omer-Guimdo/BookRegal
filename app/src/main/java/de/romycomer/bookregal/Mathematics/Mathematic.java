@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import de.romycomer.bookregal.BusinessAdministration;
-import de.romycomer.bookregal.BisinessInformatic.BusinessInformatic;
+import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
+import de.romycomer.bookregal.BusinessInformatic.BusinessInformatic;
 import de.romycomer.bookregal.ComputerSience.ComputerSience;
 import de.romycomer.bookregal.LanguageManager;
 import de.romycomer.bookregal.MainActivity;
-import de.romycomer.bookregal.Physic;
+import de.romycomer.bookregal.Physics.Physics;
 import de.romycomer.bookregal.R;
 
 public class Mathematic extends AppCompatActivity {
@@ -78,7 +78,7 @@ public class Mathematic extends AppCompatActivity {
     }
 
     public void clickPhysic(View view) {
-        MainActivity.redirectActivity(this, Physic.class);
+        MainActivity.redirectActivity(this, Physics.class);
     }
 
     public void ClickMathematic1(View view) { MainActivity.redirectActivity(this, Mathematic1.class); }

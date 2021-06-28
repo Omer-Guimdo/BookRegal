@@ -7,11 +7,11 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import de.romycomer.bookregal.BusinessAdministration;
-import de.romycomer.bookregal.BisinessInformatic.BusinessInformatic;
+import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
+import de.romycomer.bookregal.BusinessInformatic.BusinessInformatic;
 import de.romycomer.bookregal.LanguageManager;
 import de.romycomer.bookregal.MainActivity;
-import de.romycomer.bookregal.Physic;
+import de.romycomer.bookregal.Physics.Physics;
 import de.romycomer.bookregal.R;
 
 //import androidx.room.Room;
@@ -82,7 +82,7 @@ public class Mathematic3 extends AppCompatActivity {
     }
 
     public void clickPhysic(View view) {
-        MainActivity.redirectActivity(this, Physic.class);
+        MainActivity.redirectActivity(this, Physics.class);
     }
 
 

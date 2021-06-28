@@ -1,17 +1,22 @@
-package de.romycomer.bookregal;
+package de.romycomer.bookregal.BusinessInformatic;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
+//import androidx.room.Room;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import de.romycomer.bookregal.BisinessInformatic.BusinessInformatic;
-import de.romycomer.bookregal.ComputerSience.ComputerSience;
+import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
+import de.romycomer.bookregal.LanguageManager;
+import de.romycomer.bookregal.MainActivity;
 import de.romycomer.bookregal.Mathematics.Mathematic;
+import de.romycomer.bookregal.Physics.Physics;
+import de.romycomer.bookregal.R;
 
-public class BusinessAdministration extends AppCompatActivity {
+
+public class BusinessInformatic1 extends AppCompatActivity {
 
     //Initialize variable
     DrawerLayout drawerLayout;
@@ -19,8 +24,7 @@ public class BusinessAdministration extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_business_administration);
-
+        setContentView(R.layout.activity_business_informatic1);
         ImageButton en = findViewById(R.id.btn_englisch);
         ImageButton de = findViewById(R.id.btn_deutsch);
         ImageButton fr = findViewById(R.id.btn_france);
@@ -45,6 +49,7 @@ public class BusinessAdministration extends AppCompatActivity {
 
         //Assign variable
         drawerLayout = findViewById(R.id.drawer_layout);
+
     }
     public void ClickMenu(View view){
         //open drawer
@@ -59,25 +64,25 @@ public class BusinessAdministration extends AppCompatActivity {
         MainActivity.redirectActivity(this,MainActivity.class);
     }
     public void ClickComputerSience(View view){
-        MainActivity.redirectActivity(this, ComputerSience.class);
+        //recreate activity
+        recreate();
     }
     public void clickMathematic(View view){
-        //recreate activity
         MainActivity.redirectActivity(this, Mathematic.class);
     }
-    public void clickBusiness_informatic(View view) {
-        //recreate activity
-        MainActivity.redirectActivity(this, BusinessInformatic.class);
+
+    public void clickBusiness_administration(View view) {
+        MainActivity.redirectActivity(this, BusinessAdministration.class);
     }
-        public void clickBusiness_administration(View view){
-            //recreate activity
-            recreate();
+
+    public void clickBusiness_informatic(View view) {
+        MainActivity.redirectActivity(this, BusinessInformatic.class);
     }
 
     public void clickPhysic(View view) {
-        //recreate activity
-        MainActivity.redirectActivity(this, Physic.class);
+        MainActivity.redirectActivity(this, Physics.class);
     }
+
 
     @Override
     protected void onPause(){

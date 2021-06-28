@@ -1,4 +1,4 @@
-package de.romycomer.bookregal.ComputerSience;
+package de.romycomer.bookregal.BusinessInformatic;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
-import de.romycomer.bookregal.BusinessInformatic.BusinessInformatic;
 import de.romycomer.bookregal.LanguageManager;
 import de.romycomer.bookregal.MainActivity;
 import de.romycomer.bookregal.Mathematics.Mathematic;
@@ -17,7 +16,7 @@ import de.romycomer.bookregal.Physics.Physics;
 import de.romycomer.bookregal.R;
 
 
-public class ComputerSience4 extends AppCompatActivity {
+public class BusinessInformatic2 extends AppCompatActivity {
 
     //Initialize variable
     DrawerLayout drawerLayout;
@@ -25,7 +24,7 @@ public class ComputerSience4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_computer_sience4);
+        setContentView(R.layout.activity_business_informatic2);
 
         ImageButton en = findViewById(R.id.btn_englisch);
         ImageButton de = findViewById(R.id.btn_deutsch);

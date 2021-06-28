@@ -13,10 +13,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
-import de.romycomer.bookregal.BisinessInformatic.BusinessInformatic;
+import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
+import de.romycomer.bookregal.BusinessInformatic.BusinessInformatic;
 import de.romycomer.bookregal.ComputerSience.ComputerSience;
 import de.romycomer.bookregal.DB.Book;
 import de.romycomer.bookregal.Mathematics.Mathematic;
+import de.romycomer.bookregal.Physics.Physics;
 
 public class MainActivity extends AppCompatActivity {
     //initialize variable
@@ -123,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public  void clickPhysic(View view){
         //redirect activity to Mathematic
-        redirectActivity(this, Physic.class);
+        redirectActivity(this, Physics.class);
     }
 
     public static void redirectActivity(Activity activity, Class aClass) {
