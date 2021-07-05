@@ -16,6 +16,12 @@
     <string name="impressium">Impressium</string>
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Bücherregal</string>
+    <string name="description">Eine exemplarische Einführung in die Informatikkonzepte, die Sie kennen müssen. Entworfen
+        Für Leser, die sich nicht um akademische Formalitäten kümmern, ist es ein schneller und einfacher Computer
+        Wissenschaftlicher Leitfaden. Es vermittelt die Grundlagen, die Sie benötigen, um Computer effektiv zu programmieren. Nach einem einfachen
+        Einführung in die diskrete Mathematik, es stellt gängige Algorithmen und Datenstrukturen vor. Es beschreibt auch die Grundsätze the
+        die Computer und Programmiersprachen zum Laufen bringen.</string>
+
 
     <string name="Autor">Autor</string>
     <string name="jear">Jahr der Veröffentlichung</string>

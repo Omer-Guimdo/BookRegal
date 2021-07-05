@@ -67,7 +67,7 @@ public class ComputerSience1 extends AppCompatActivity {
     }
     public void ClickComputerSience(View view){
         //recreate activity
-        recreate();
+        MainActivity.redirectActivity(this,ComputerSience.class);
     }
     public void clickMathematic(View view){
         MainActivity.redirectActivity(this, Mathematic.class);

@@ -15,6 +15,11 @@
     <string name="impressium">Impressium</string>
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Books Library</string>
+    <string name="description">A walkthrough of computer science concepts you must know. Designed
+        for readers who do not care for academic formalities, it is a fast and easy computer
+        science guide. It teaches the foundations you need to program computers effectively. After a simple
+        introduction to discrete math, it presents common algorithms and data structures. It also outlines the principles
+        that make computers and programming languages work.</string>
 
     <string name="Autor">Autor</string>
     <string name="jear">Jear of publication</string>

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
 import de.romycomer.bookregal.BusinessInformatic.BusinessInformatic;
 import de.romycomer.bookregal.ComputerSience.ComputerSience;
 import de.romycomer.bookregal.LanguageManager;
@@ -74,12 +75,12 @@ public class Physics extends AppCompatActivity {
     }
     public void clickBusiness_administration(View view){
         //recreate activity
-        recreate();
+        MainActivity.redirectActivity(this, BusinessAdministration.class);
     }
 
     public void clickPhysic(View view) {
         //recreate activity
-        MainActivity.redirectActivity(this, Physics.class);
+        recreate();
     }
 
     public void ClickPhysics1(View view) { MainActivity.redirectActivity(this, Physics1.class); }

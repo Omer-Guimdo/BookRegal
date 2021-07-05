@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 
 import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
 import de.romycomer.bookregal.BusinessInformatic.BusinessInformatic;
+import de.romycomer.bookregal.ComputerSience.ComputerSience;
 import de.romycomer.bookregal.LanguageManager;
 import de.romycomer.bookregal.MainActivity;
 import de.romycomer.bookregal.Mathematics.Mathematic;
@@ -66,7 +67,7 @@ public class Physics3 extends AppCompatActivity {
     }
     public void ClickComputerSience(View view){
         //recreate activity
-        recreate();
+        MainActivity.redirectActivity(this, ComputerSience.class);
     }
     public void clickMathematic(View view){
         MainActivity.redirectActivity(this, Mathematic.class);

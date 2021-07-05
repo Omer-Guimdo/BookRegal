@@ -16,6 +16,13 @@
     <string name="impressium">Impressium</string>
     <string name="version">Version: 0.0.1</string>
     <string name="books_library">Librarie</string>
+    <string name="description">
+        Une présentation des concepts informatiques que vous devez connaître. Conçu
+        pour les lecteurs peu soucieux des formalités académiques, c est un ordinateur rapide et facile
+        guide scientifique. Il enseigne les bases dont vous avez besoin pour programmer efficacement les ordinateurs. Après une simple
+        introduction aux mathématiques discrètes, il présente des algorithmes et des structures de données communs. Il expose également les principes
+        qui font fonctionner les ordinateurs et les langages de programmation.</string>
+
 
     <string name="Autor">Auteur</string>
     <string name="jear">Année de publication</string>

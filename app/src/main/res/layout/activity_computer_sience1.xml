@@ -23,8 +23,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/computer_science1"
-                android:textSize="40dp"
-                android:gravity="center"/>
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:padding="5dp"/>
+
+            <include
+                layout="@layout/computersience1_image"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:padding="15dp"/>
 
         </LinearLayout>
 
