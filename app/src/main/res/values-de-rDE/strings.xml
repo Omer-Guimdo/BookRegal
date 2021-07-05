@@ -62,5 +62,6 @@
     <string name="physic4">Physiks IV</string>
     <string name="physic5">Physiks V</string>
     <string name="physic6">Physiks VI</string>
+    <string name="linkToYoutube">Informatik lernen <a href ="https://www.youtube.com/results?search_query=meilleur+livre+informatique+en+francais"> hier </a></string>
 
 </resources>

@@ -5,8 +5,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 //import androidx.room.Room;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
 import de.romycomer.bookregal.BusinessInformatic.BusinessInformatic;
@@ -21,11 +23,15 @@ public class ComputerSience1 extends AppCompatActivity {
 
     //Initialize variable
     DrawerLayout drawerLayout;
+    TextView linkToYoutube;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_computer_sience1);
+
+        linkToYoutube = findViewById(R.id.linkToYoutubetv);
+        linkToYoutube.setMovementMethod(LinkMovementMethod.getInstance());
 
         ImageButton en = findViewById(R.id.btn_englisch);
         ImageButton de = findViewById(R.id.btn_deutsch);

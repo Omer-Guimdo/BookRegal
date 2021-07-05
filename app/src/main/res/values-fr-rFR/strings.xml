@@ -63,5 +63,6 @@
     <string name="physic4">Physique IV</string>
     <string name="physic5">Physique V</string>
     <string name="physic6">Physique VI</string>
+    <string name="linkToYoutube">Meilleur livre en informatique <a href ="https://www.youtube.com/watch?v=z2co8Bh6fwQab_channel=DominikusHerzberg"> ici </a></string>
 
 </resources>

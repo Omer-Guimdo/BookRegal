@@ -61,4 +61,6 @@
     <string name="physic5">Physics V</string>
     <string name="physic6">Physics VI</string>
 
+    <string name="linkToYoutube">best computer Sience book <a href ="https://www.youtube.com/watch?v=S1iAe-H4DaYab_channel=KeepOnCoding"> hier </a></string>
+
 </resources>

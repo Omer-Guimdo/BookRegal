@@ -5,8 +5,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 //import androidx.room.Room;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import de.romycomer.bookregal.BusinessAdministration.BusinessAdministration;
 import de.romycomer.bookregal.ComputerSience.ComputerSience;
@@ -25,6 +27,7 @@ public class BusinessInformatic1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_business_informatic1);
         ImageButton en = findViewById(R.id.btn_englisch);
         ImageButton de = findViewById(R.id.btn_deutsch);
