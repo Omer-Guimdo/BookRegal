@@ -1,6 +1,8 @@
 # BookRegal
 Mehrsprachigkeit in mobilen Anwendungen
 
+https://github.com/Omer-Guimdo/BookRegal
+
 wir haben mit Android Studio codiert und gestarted mit dem Virtual Devices:
 Name: Pixel 2 API 30
 Resolution: 1080 x 1920:420dpi
